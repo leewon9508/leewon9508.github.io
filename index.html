@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="author" content="leewonhak">
+    <meta name="keywords" content="이원학, 신입개발자, 포트폴리오, portfolio">
+    <meta name="description" content="신입 개발자 이원학 포트폴리오 사이트 입니다.">
+    <meta name="robots" content="all">
+    <meta name="format-detection" content="telephome=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>신입 개발자 이원학 포트폴리오</title>
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+    <link rel="icon" href="img/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/response.css">
+    <link rel="stylesheet" href="css/colorful.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/typed.js"></script>
+    <script src="https://kit.fontawesome.com/435f472c67.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script src="js/email.js"></script>
+    <script src="js/script.js" defer></script>
+
+</head>
+
+<body>
+   
+
+    <header id="header">
+        <div class="container">
+            <nav id="gnb">
+                <h1>hello, wonhak World</h1>
+                <ul class="nav_menu">
+                    <li class="btn checked"><a href="#home" data-tabnum="0"title="홈으로">Home</a></li>
+                    <li class="btn"><a href="#profile" data-tabnum="1">Profile</a></li>
+                    <li class="btn"><a href="#project" data-tabnum="2">Project</a></li>
+                    <li class="btn"><a href="#contact" data-tabnum="3">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <content id="content">
+        <section class="home content">
+            <div class="container">
+                <div class="home_right"></div>
+                <div class="home_left">
+                    <h1 class="em txt_color anim-text-flow">Web Developer</h1>
+                    <h2 class="typed-cursor typed"></h2>
+                </div>
+            </div>
+        </section>
+        <section class="profile content move">
+            <div class="container">
+                <h2>Profile</h2>
+                <div class="introduce">
+                    안녕하세요. 신입 개발자 이원학입니다. <br>
+                    6개월간의 백엔드 국비과정을 밟아오면서 기본적인 백엔드를 공부하고 공부한것을 활용해 개인 프로젝트도 만들며 개발역량을 조금씩 쌓아왔습니다.
+                    <br><br>
+                    가장 중요한 것은 주인의식을 갖고 일을 하는 것입니다. 신입 개발자로서 부족한 점도 있겠지만 <br>
+                    부족한 부분을 알고 채워나가며 성장하는 모습 보여드리겠습니다. 감사합니다. 💜
+                </div>
+                <h2>Skills</h2>
+                <div class="front_skills">
+                    <h3><span>Front-end</span></h3>
+                    <span class="middle_line"></span>
+                    <div class="skills_block">
+                        <div>
+                            <span class="html5"></span>
+                            <p>HTML5</p>
+                        </div>
+                        <div>
+                            <span class="css3"></span>
+                            <p>CSS3</p>
+                        </div>
+                        <div>
+                            <span class="javascript"></span>
+                            <p>Javascript <br>(Vanilla)</p>
+                        </div>
+                        <div>
+                            <span class="jquery"></span>
+                            <p>jQuery</p>
+                        </div>
+                        <div>
+                            <span class="ajax"></span>
+                            <p>Ajax</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="back_skills">
+                    <h3><span>Back-end</span></h3>
+                    <span class="middle_line"></span>
+                    <div class="skills_block">
+                        <div>
+                            <span class="MySQL"></span>
+                            <p>MySQL</p>
+                        </div>
+                        <div>
+                            <span class="SQL_Developer"></span>
+                            <p>SQL_Developer</p>
+                        </div>
+                        <div>
+                            <span class="Spring"></span>
+                            <p>Spring</p>
+                        </div>
+                        <div>
+                            <span class="IntelliJ"></span>
+                            <p>IntelliJ</p>
+                        </div>
+                        <div>
+                            <span class="git"></span>
+                            <p>Git</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="me">
+                    <div class="me_img">
+                        <img src="img/me.png" alt="me">
+                    </div>
+                    <div class="me_txt">
+                        <ul>
+                            <li>이원학 (Lee Won Hak)</li>
+                            <li>1995 / 05 / 20 (만 26세)</li>
+                            <li>인천 광역시 거주</li>
+                            <li>안산대학교 뷰티아트 졸업 (2016.03)</li>
+                            <li>미용사 / 피부 / 두피 / 네일 / 메이크업 자격증</li>
+                            <li>인천일보아카데미 '백엔드' 과정 수료
+                                <br> (2021.07.27 ~ 2021.09.14)
+                            </li>
+                            </u>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="project content move">
+            <div class="container">
+                <!-- <div id="modal" class="none">
+                    <div class="modal_content">
+                        <div class="wetube_modal">
+                            <h2>Preview</h2>
+                            <video src="https://eunjitech.github.io/dev_file/wetube_preview.mp4" controls=true></video>
+                            <span>⚙️ 실행과정 : 로그인 > 동영상 업로드 > 동영상 수정 > 댓글 작성 > 댓글 삭제 > 검색 > 프로필 수정</span>
+                        </div>
+                        <button class="modal_button"><i class="fas fa-times"></i></button>
+                    </div>
+                    <div class="modal_layer"></div>
+                </div> -->
+                <h2 class="con_title">Projects</h2>
+                <div>
+                    <h3>📢게시된 모든 포트폴리오는 영리적 이익을 추구하지 않습니다.</h3>
+                    <ul class="project_box">
+                        <li class="project_block wetube">
+                            <div class="project_bg">
+                                <em>화장품 리뷰 공유</em>
+                            </div>
+                            <div class="project_cont">
+                                <span>첫 개인 프로젝트</span>
+                                <div class="projectBtn">
+                                    <a href="" target="_blank">View</a>
+                                    <a href="https://github.com/leewon9508/Project_210609" target="_blank">Github</a>
+                                    <a href="https://www.notion.so/Project_21-06-09-26a96ac9a850483291263473e048344b" target="_blank">File</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="project_block calendar">
+                            <div class="project_bg">
+                                <em>입찰 거래 사이트</em>
+                            </div>
+                            <div class="project_cont">
+                                <span>첫 팀 프로젝트</span>
+                                <div class="projectBtn">
+                                    <a href="" target="_blank">View</a>
+                                    <a href="" target="_blank">Github</a>
+                                    <a href="https://www.notion.so/TeamProject_210702-741b1affe30b41138cd673de602bbfaf" target="_blank">File</a>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- <li class="project_block ediya">
+                            <div class="project_bg">
+                                <em>EDIYA COFFEE</em>
+                            </div>
+                            <div class="project_cont">
+                                <span>Responsive Web Design</span>
+                                <div class="projectBtn">
+                                    <a href="https://eunjitech.github.io/ediya_coffee/" target="_blank">View</a>
+                                    <a href="https://github.com/eunjitech/ediya_coffee" target="_blank">Github</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="project_block drseed">
+                            <div class="project_bg">
+                                <em>Dr.SEED</em>
+                            </div>
+                            <div class="project_cont">
+                                <span>Responsive Web Design</span>
+                                <div class="projectBtn">
+                                    <a href="https://eunjitech.github.io/dr_seed/" target="_blank">View</a>
+                                    <a href="https://github.com/eunjitech/dr_seed" target="_blank">Github</a>
+                                </div>
+                            </div>
+                        </li> -->
+                        <li class="project_block prep">
+                            <div class="project_bg">
+                                <em>준비중입니다🛠</em>
+                            </div>
+                            <div class="project_cont">
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>📝공부한 내용들을 노션에 기록하고 있어요. </h3>
+                    <!-- <div class="projectBtn"><a href="https://www.notion.so/63662b964e964fc1966dbb2dc36d9169" class="enter_notion" target="_blank">노션 보러가기</a></div> -->
+                    <ul class="project_box">
+                        <li class="project_block note">
+                            <div class="project_bg">
+                                <em>노션 페이지 이동</em>
+                            </div>
+                            <div class="project_cont">
+                                <span></span>
+                                <div class="projectBtn">
+                                    <a href="https://www.notion.so/63662b964e964fc1966dbb2dc36d9169"
+                                        target="_blank">Notion</a>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- <li class="project_block note">
+                            <div class="project_bg">
+                                <em>Git Basic</em>
+                            </div>
+                            <div class="project_cont">
+                                <span></span>
+                                <div class="projectBtn">
+                                    <a href="https://www.notion.so/eunjitech/Git-Basic-756849bf5dc04a8c8a8c81225e43a763"
+                                        target="_blank">Notion</a>
+                                </div>
+                            </div>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+        <section class="contact content move">
+            <div class="container">
+                <h2 class="con_title">Contact</h2>
+                <h3>구인관련 및 궁금한 점이 있으시다면, 아래 연락처를 통해 연락 바랍니다 <span class="up">📞</span></h3>
+
+                <div class="contact_container">
+                    <div class="contact_box">
+                        <ul>
+                            <li>
+                                <i class="fas fa-mobile-alt"></i><br>
+                                <span>+82 010 2186 9508 </span>
+                            </li>
+                            <li>
+                                <i class="far fa-envelope"></i><br>
+                                <a href="mailto:twowonhak@gmail.com">twowonhak@gmail.com</a>
+                            </li>
+                            <li>
+                                <i class="fab fa-github"></i><br>
+                                <a href="" target="_blank">깃</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="contact_form">
+                        <form id="contact-form">
+                            <input type="hidden" name="contact_number">
+                    
+                            <input type="text" name="user_name" placeholder="Name*" class="input_name">
+                    
+                            <input type="email" name="user_email" placeholder="Email*" class="input_email">
+                    
+                            <textarea name="message" placeholder="Message*" class="input_message"></textarea>
+                    
+                            <input type="submit" value="Send" class="send" title="전송하기">
+                        </form>
+                        <span class="input_error none"></span>
+                    </div>
+              </div>  
+            </div>
+        </section>
+    </content>
+    <footer id="footer">
+        <div class="container">
+            <span class="js-weather"></span>
+            <ul class="foot_txt">
+                <li>ⓒ 2021 이원학 all rights reserved.</li>
+            </ul>
+            <ul class="sns">
+                <li><a href="" title="깃허브 바로가기" target="_blank"><img src="img/github.png"
+                            alt="sns"></a></li>
+                <li><a href="mailto:twowonhak@gmail.com" title="메일 보내기" target="_blank"><img src="img/email.png" alt="sns"></a></li>
+                <li><a href="https://www.notion.so/63662b964e964fc1966dbb2dc36d9169" title="노션 바로가기" target="_blank"><img src="img/notion.png" alt="sns"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="js/weather.js"></script>
+    <script src="js/modal.js"></script>
+</body>
+
+</html>
